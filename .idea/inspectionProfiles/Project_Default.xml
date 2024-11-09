@@ -1,0 +1,72 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="th:each" />
+            <item index="1" class="java.lang.String" itemvalue="th:test" />
+            <item index="2" class="java.lang.String" itemvalue="th:href" />
+            <item index="3" class="java.lang.String" itemvalue="th:text" />
+            <item index="4" class="java.lang.String" itemvalue="th:method" />
+            <item index="5" class="java.lang.String" itemvalue="th:action" />
+            <item index="6" class="java.lang.String" itemvalue="th:object" />
+            <item index="7" class="java.lang.String" itemvalue="th:field" />
+            <item index="8" class="java.lang.String" itemvalue="Name:" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="p" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="SpringLearn6" />
+          <option value="SpringLearn6" />
+          <option value="SpringLearn6" />
+          <option value="SpringLearn6" />
+          <option value="SpringLearn6" />
+          <option value="SpringLearn6" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="junit:junit:4.11" />
+          <option value="org.springframework:spring-webmvc:5.3.14" />
+          <option value="org.postgresql:postgresql:42.2.14" />
+          <option value="org.springframework:spring-beans:5.3.14" />
+          <option value="com.h2database:h2:1.4.200" />
+          <option value="org.springframework:spring-expression:5.3.14" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
